@@ -3,6 +3,7 @@ import { ToDoForm } from "./ToDOForm";
 import { v4 as uuidv4 } from "uuid";
 import { ToDo } from "./ToDo";
 import { EditToDoForm } from "./EditToDoListForm";
+import "../App.css";
 uuidv4();
 
 const ToDoWrapper = () => {
